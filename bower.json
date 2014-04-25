@@ -14,7 +14,8 @@
     "tests"
   ],
   "dependencies": {
-    "requirejs": "~2.1.10"
+    "requirejs": "~2.1.10",
+    "extendable.js": "~0.0.3"
   },
   "devDependencies": {
     "mocha": "~1.17.1",

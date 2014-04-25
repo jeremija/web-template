@@ -27,7 +27,7 @@ less:
 
 .PHONY: clean
 clean:
-	@echo cleaning dist/ folder
+	@echo removing dist/ folder
 	@rm -rf dist/
 
 .PHONY: build
@@ -59,7 +59,7 @@ just_build:
 
 	@echo copying index.html
 	@cp src/index.html dist/index.src.html
-	@cp src/favicon* dist/
+	#@cp src/favicon* dist/
 
 	@echo replacing index.html \<script\> tags
 	@sed -e '/SCRIPT START/,/SCRIPT END/c\	<script type="text/javascript" src="js/index.js"></script>' \
@@ -75,9 +75,10 @@ just_build:
 
 .PHONY: server
 server:
+	@echo server started
 	@echo visit http://localhost:$(SERVER_PORT)/src/index.html to start the app
 	@echo visit http://localhost:$(SERVER_PORT)/test/test.html to run the tests
-	$(SERVER)
+	@$(SERVER)
 
 .PHONY: docs
 docs:

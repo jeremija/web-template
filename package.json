@@ -7,8 +7,8 @@
     "jsdoc": "~3.3.0-alpha4",
     "http-server": "~0.6.1",
     "jshint": "~2.4.3",
-    "mocha-phantomjs": "~3.3.2"
+    "mocha-phantomjs": "~3.3.2",
+    "less": "~1.7.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
