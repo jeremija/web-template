@@ -1,0 +1,24 @@
+{
+  "name": "new-project",
+  "version": "0.0.1",
+  "authors": [
+    "jeremija <jerko.steiner@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.10"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "expect": "~0.2.0",
+    "almond": "~0.2.9"
+  }
+}

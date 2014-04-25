@@ -1,0 +1,14 @@
+{
+  "name": "new-project",
+  "version": "0.0.1",
+  "private": true,
+  "devDependencies": {
+    "requirejs": "~2.1.10",
+    "jsdoc": "~3.3.0-alpha4",
+    "http-server": "~0.6.1",
+    "jshint": "~2.4.3",
+    "mocha-phantomjs": "~3.3.2"
+  },
+  "dependencies": {
+  }
+}
